@@ -71,7 +71,7 @@ Start the Server: Launch the app and start the video server.
 
 Get the URL: The app will display a URL on the screen, typically something like http://192.168.x.x:8080. For video, you need the "shot.jpg" or "video" endpoint.
 
-Example URL: http://192.168.1.10:8080/shot.jpg
+Example URL: http://192.168.x.x:8080/shot.jpg
 
 Step 2: Update the Configuration File
 Open the src/config.py file.
@@ -113,3 +113,4 @@ A window will open showing your camera feed with recognized faces labeled with t
 You can use this command to verify that the Haar Cascade file is correctly placed and readable by OpenCV.
 
 python main.py check
+
